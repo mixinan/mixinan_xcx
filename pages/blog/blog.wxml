@@ -1,0 +1,13 @@
+<import src='blog-item/blog-item-template.wxml'/>
+<view class='body'>
+   <swiper indicator-dots='true' autoplay='true' interval='3000' indicator-color='#fff' indicator-active-color='#f00'>
+      <swiper-item> <image src='/img/dream.jpg'></image> </swiper-item>
+      <swiper-item> <image src='/img/dream.jpg'></image> </swiper-item>
+      <swiper-item> <image src='/img/dream.jpg'></image> </swiper-item>
+   </swiper>
+   <block wx:for="{{weibos}}" wx:for-item="item">
+        <view>
+            <template is='blogItem' data='{{...item}}'/>
+        </view>
+    </block>
+</view>

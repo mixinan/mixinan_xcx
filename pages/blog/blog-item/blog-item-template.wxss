@@ -1,0 +1,32 @@
+.blog-container{
+   padding: 18rpx;
+   display: flex;
+   flex-direction: column;
+   background-color: #fff;
+}
+
+.name{
+   color: red;
+   font-size: 28rpx;
+   margin-bottom: 6px;
+}
+
+.text{
+   font-size: 26rpx;
+   margin-bottom: 8px;
+}
+
+.time-like{
+   display: flex;
+   justify-content: space-between;
+   padding-right: 20rpx;
+}
+
+.time{
+   font-size: 16rpx;
+}
+
+.like{
+   font-size: 20rpx;
+}
+

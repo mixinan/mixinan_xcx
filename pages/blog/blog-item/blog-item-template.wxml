@@ -1,0 +1,14 @@
+<template name="blogItem">
+   <view class="blog-container">
+      <text class='name'>{{user.mi_user_nickname}}</text>
+      <text class='text'>{{blog.mi_blog_text}}</text>
+      <view class='time-like'>
+         <text class='time'>{{blog.mi_blog_create_time}}</text>
+         <view>
+            <text class='like'>like: </text><text class='like'>{{blog.mi_blog_like_times}}</text>
+         </view>
+         
+      </view>
+      
+   </view>
+</template>

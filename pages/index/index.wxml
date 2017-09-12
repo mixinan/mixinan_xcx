@@ -1,0 +1,8 @@
+<view class="container">
+   <view class="header">
+      <image src='/img/dream.jpg'></image>
+      <text>恭喜新婚</text>
+   </view>
+   <image src='/img/icon.png' bindtap='goMainPage'></image>
+   <text class='time'>2017-10-02</text>
+</view>
